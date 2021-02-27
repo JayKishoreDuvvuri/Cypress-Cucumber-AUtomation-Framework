@@ -1,0 +1,133 @@
+[
+  {
+    "description": "Verify Asset Number format as Valid and Invalid",
+    "keyword": "Feature",
+    "name": "Check Asset Number",
+    "line": 1,
+    "id": "check-asset-number",
+    "tags": [],
+    "uri": "checkAssetNumber.feature",
+    "elements": [
+      {
+        "id": "check-asset-number;valid-asset-number",
+        "keyword": "Scenario",
+        "line": 5,
+        "name": "Valid Asset Number",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "I open the application",
+            "result": {
+              "status": "passed",
+              "duration": 928000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 7,
+            "name": "I click on add asset tab",
+            "result": {
+              "status": "passed",
+              "duration": 114000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 8,
+            "name": "I should see the add asset page",
+            "result": {
+              "status": "passed",
+              "duration": 16000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 9,
+            "name": "I fill asset number with valid Asset Number",
+            "result": {
+              "status": "passed",
+              "duration": 371000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 10,
+            "name": "I click the send button",
+            "result": {
+              "status": "passed",
+              "duration": 92000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 11,
+            "name": "I should see the message as correct format",
+            "result": {
+              "status": "passed",
+              "duration": 12000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "check-asset-number;invalid-asset-number",
+        "keyword": "Scenario",
+        "line": 15,
+        "name": "Invalid Asset Number",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 16,
+            "name": "Iam on the add asset page",
+            "result": {
+              "status": "passed",
+              "duration": 46000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 17,
+            "name": "I re-enter again asset number with invalid format",
+            "result": {
+              "status": "passed",
+              "duration": 411000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 18,
+            "name": "I click the send button",
+            "result": {
+              "status": "passed",
+              "duration": 98000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 19,
+            "name": "I should see the message as Incorrect format",
+            "result": {
+              "status": "passed",
+              "duration": 12000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

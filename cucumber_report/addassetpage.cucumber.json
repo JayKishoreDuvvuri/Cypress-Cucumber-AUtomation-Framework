@@ -1,0 +1,83 @@
+[
+  {
+    "description": "As a user\nI want to launch the Application and click on the Add Asset Tab\nand see the New Asset label with the form add asset input check box \nand submit button with Paper Icon",
+    "keyword": "Feature",
+    "name": "Open the Add Asset Page",
+    "line": 1,
+    "id": "open-the-add-asset-page",
+    "tags": [],
+    "uri": "addassetpage.feature",
+    "elements": [
+      {
+        "id": "open-the-add-asset-page;add-asset-tab",
+        "keyword": "Scenario",
+        "line": 8,
+        "name": "Add Asset Tab",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 9,
+            "name": "I open the application",
+            "result": {
+              "status": "passed",
+              "duration": 1270000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 10,
+            "name": "I click on add assets tab",
+            "result": {
+              "status": "passed",
+              "duration": 120000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 11,
+            "name": "I should see the add asset page",
+            "result": {
+              "status": "passed",
+              "duration": 26000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 12,
+            "name": "I should see the label New Asset",
+            "result": {
+              "status": "passed",
+              "duration": 20000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 13,
+            "name": "I should see the form add asset input check box",
+            "result": {
+              "status": "passed",
+              "duration": 17000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 14,
+            "name": "I should see the submit button with paper Icon",
+            "result": {
+              "status": "passed",
+              "duration": 36000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

@@ -1,0 +1,367 @@
+[
+  {
+    "description": "As a user\nI want to launch the Application and click on the Add Asset Tab\nand see the New Asset label with the form add asset input check box \nand submit button with Paper Icon",
+    "keyword": "Feature",
+    "name": "Open the Add Asset Page",
+    "line": 1,
+    "id": "open-the-add-asset-page",
+    "tags": [],
+    "uri": "addassetpage.feature",
+    "elements": [
+      {
+        "id": "open-the-add-asset-page;add-asset-tab",
+        "keyword": "Scenario",
+        "line": 8,
+        "name": "Add Asset Tab",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 9,
+            "name": "I open the application",
+            "result": {
+              "status": "passed",
+              "duration": 1270000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 10,
+            "name": "I click on add assets tab",
+            "result": {
+              "status": "passed",
+              "duration": 120000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 11,
+            "name": "I should see the add asset page",
+            "result": {
+              "status": "passed",
+              "duration": 26000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 12,
+            "name": "I should see the label New Asset",
+            "result": {
+              "status": "passed",
+              "duration": 20000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 13,
+            "name": "I should see the form add asset input check box",
+            "result": {
+              "status": "passed",
+              "duration": 17000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 14,
+            "name": "I should see the submit button with paper Icon",
+            "result": {
+              "status": "passed",
+              "duration": 36000000
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "description": "Verify Asset Number format as Valid and Invalid",
+    "keyword": "Feature",
+    "name": "Check Asset Number",
+    "line": 1,
+    "id": "check-asset-number",
+    "tags": [],
+    "uri": "checkAssetNumber.feature",
+    "elements": [
+      {
+        "id": "check-asset-number;valid-asset-number",
+        "keyword": "Scenario",
+        "line": 5,
+        "name": "Valid Asset Number",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "I open the application",
+            "result": {
+              "status": "passed",
+              "duration": 928000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 7,
+            "name": "I click on add asset tab",
+            "result": {
+              "status": "passed",
+              "duration": 114000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 8,
+            "name": "I should see the add asset page",
+            "result": {
+              "status": "passed",
+              "duration": 16000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 9,
+            "name": "I fill asset number with valid Asset Number",
+            "result": {
+              "status": "passed",
+              "duration": 371000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 10,
+            "name": "I click the send button",
+            "result": {
+              "status": "passed",
+              "duration": 92000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 11,
+            "name": "I should see the message as correct format",
+            "result": {
+              "status": "passed",
+              "duration": 12000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "check-asset-number;invalid-asset-number",
+        "keyword": "Scenario",
+        "line": 15,
+        "name": "Invalid Asset Number",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 16,
+            "name": "Iam on the add asset page",
+            "result": {
+              "status": "passed",
+              "duration": 46000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 17,
+            "name": "I re-enter again asset number with invalid format",
+            "result": {
+              "status": "passed",
+              "duration": 411000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 18,
+            "name": "I click the send button",
+            "result": {
+              "status": "passed",
+              "duration": 98000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 19,
+            "name": "I should see the message as Incorrect format",
+            "result": {
+              "status": "passed",
+              "duration": 12000000
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "description": "As a user\nI want to launch the Application and click on the Existing Assets Tab\nand see the page is opened",
+    "keyword": "Feature",
+    "name": "Open Existing Assets Page",
+    "line": 1,
+    "id": "open-existing-assets-page",
+    "tags": [],
+    "uri": "existingassetspage.feature",
+    "elements": [
+      {
+        "id": "open-existing-assets-page;existing-assets-tab",
+        "keyword": "Scenario",
+        "line": 7,
+        "name": "Existing Assets Tab",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 8,
+            "name": "I open the application",
+            "result": {
+              "status": "passed",
+              "duration": 836000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 9,
+            "name": "I click on existing assets tab",
+            "result": {
+              "status": "passed",
+              "duration": 157000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 10,
+            "name": "I should see the spinner",
+            "result": {
+              "status": "passed",
+              "duration": 29000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 11,
+            "name": "I should see the loading icon",
+            "result": {
+              "status": "passed",
+              "duration": 30000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 12,
+            "name": "I wait for 5 seconds",
+            "result": {
+              "status": "passed",
+              "duration": 5005000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 13,
+            "name": "If still I see the page loading I send an error message",
+            "result": {
+              "status": "failed",
+              "duration": 5042000000,
+              "error_message": "AssertionError: Timed out retrying: expected '<span.sr-only>' not to be 'visible'\n    at Function.loadingIconNotVisible (http://localhost:3000/__cypress/tests?p=cypress/integration/cucumber-bdd-tests/existingassetspage.feature:198:64)\n    at Context.eval (http://localhost:3000/__cypress/tests?p=cypress/integration/cucumber-bdd-tests/existingassetspage.feature:497:34)\n    at Context.resolveAndRunStepDefinition (http://localhost:3000/__cypress/tests?p=cypress/integration/cucumber-bdd-tests/existingassetspage.feature:12318:9)\n    at Context.eval (http://localhost:3000/__cypress/tests?p=cypress/integration/cucumber-bdd-tests/existingassetspage.feature:11659:35)"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "description": "As a user\nI want to launch the Application and navigate to the Landing Page.\nI verify the Titles, Lables and Text in the Text Sections.",
+    "keyword": "Feature",
+    "name": "Launch the Application",
+    "line": 1,
+    "id": "launch-the-application",
+    "tags": [],
+    "uri": "landingpage.feature",
+    "elements": [
+      {
+        "id": "launch-the-application;launch-application",
+        "keyword": "Scenario",
+        "line": 7,
+        "name": "Launch Application",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 8,
+            "name": "I launch the application",
+            "result": {
+              "status": "passed",
+              "duration": 738000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 9,
+            "name": "I open the application",
+            "result": {
+              "status": "passed",
+              "duration": 211000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 10,
+            "name": "I should see the landing page",
+            "result": {
+              "status": "passed",
+              "duration": 104000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 11,
+            "name": "I should see the first text section",
+            "result": {
+              "status": "passed",
+              "duration": 85000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 12,
+            "name": "I should see the second text section",
+            "result": {
+              "status": "passed",
+              "duration": 105000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

@@ -1,0 +1,39 @@
+{
+	"name": "cy-bdd-tests",
+	"version": "1.0.0",
+	"description": "Cypress With Cucumber",
+	"main": "index.js",
+	"scripts": {
+		"cy:open": "cypress open",
+		"cy:run": "cypress run",
+		"cy:run:chrome": "cypress run --browser chrome",
+		"cy:run:firefox": "cypress run --browser firefox",
+		"cy:run:electron": "cypress run --browser electron",
+		"cy:run:headless": "cypress run --headless --browser chrome"
+	},
+	"keywords": [
+		"Cypress",
+		"BDD",
+		"Cucumber"
+	],
+	"author": "Jay Kishore Duvvuri",
+	"license": "ISC",
+	"dependencies": {
+		"cucumber-html-reporter": "^5.2.0",
+		"cypress": "^6.1.0",
+		"cypress-cucumber-preprocessor": "^4.0.0",
+		"cypress-get-it": "^1.0.1",
+		"fs-extra": "^9.0.1",
+		"mocha": "^8.2.1",
+		"prettier": "^2.2.1"
+	},
+	"cypress-cucumber-preprocessor": {
+		"step_definitions": "cypress/integration/step_definitions/",
+		"cucumberJson": {
+			"generate": true,
+			"outputFolder": "cucumber_report",
+			"filePrefix": "",
+			"fileSuffix": ".cucumber"
+		}
+	}
+}

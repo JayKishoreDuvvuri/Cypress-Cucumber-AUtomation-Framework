@@ -1,0 +1,73 @@
+[
+  {
+    "description": "As a user\nI want to launch the Application and navigate to the Landing Page.\nI verify the Titles, Lables and Text in the Text Sections.",
+    "keyword": "Feature",
+    "name": "Launch the Application",
+    "line": 1,
+    "id": "launch-the-application",
+    "tags": [],
+    "uri": "landingpage.feature",
+    "elements": [
+      {
+        "id": "launch-the-application;launch-application",
+        "keyword": "Scenario",
+        "line": 7,
+        "name": "Launch Application",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 8,
+            "name": "I launch the application",
+            "result": {
+              "status": "passed",
+              "duration": 738000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 9,
+            "name": "I open the application",
+            "result": {
+              "status": "passed",
+              "duration": 211000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 10,
+            "name": "I should see the landing page",
+            "result": {
+              "status": "passed",
+              "duration": 104000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 11,
+            "name": "I should see the first text section",
+            "result": {
+              "status": "passed",
+              "duration": 85000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 12,
+            "name": "I should see the second text section",
+            "result": {
+              "status": "passed",
+              "duration": 105000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
